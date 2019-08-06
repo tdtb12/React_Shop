@@ -8,7 +8,7 @@ class HomePage extends Component {
         {this.props.products.map(product => (
           <div className="card" key={product.id}>
             <span className="card-title font-weight-bold">
-              {product.productName}
+              {product.name}
             </span>
             <div className="img-wrapper">
               <img

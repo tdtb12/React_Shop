@@ -10,9 +10,9 @@ class App extends Component {
   state = {
     products: [
       { id: 1, name: "Jacket", price: 3500, count: 7 },
-      { id: 2, name: "Shirt", price: 399, count: 0 },
-      { id: 3, name: "Pants", price: 900, count: 0 },
-      { id: 4, name: "Shoes", price: 1500, count: 0 }
+      { id: 2, name: "Shirt", price: 399, count: 6 },
+      { id: 3, name: "Pants", price: 900, count: 9 },
+      { id: 4, name: "Shoes", price: 1500, count: 3 }
     ]
   };
 
